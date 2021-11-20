@@ -1,0 +1,230 @@
+:root {
+  --primary-color: #212121;
+  --accent-color: #2196f3;
+  --second-color-text: #757575;
+  --third-color: #ffffff;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+}
+
+.logo-first {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-second {
+  color: var(--third-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.firstpart-logo {
+  color: var(--accent-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.top-link {
+  color: var(--primary-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.top-link:hover,
+.top-link:focus {
+  color: var(--accent-color);
+}
+
+.current-link {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.topnav-link {
+  color: var(--second-color-text);
+}
+
+.topnav-link:hover {
+}
+
+.footer-section {
+  background-color: #2f303a;
+}
+.faddress-link {
+  color: var(--third-color);
+  font-style: normal;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.faddress-link-second {
+  color: var(--footer-address-color);
+  font-style: normal;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.hero-section {
+  background-color: #2f303a;
+}
+
+.hero-text {
+  color: var(--third-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-style: none;
+  cursor: pointer;
+}
+
+.our-tips {
+  font-size: 0;
+}
+
+.our-tips-headers {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.our-tips-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  color: var(--second-color-text);
+  letter-spacing: 0.03em;
+}
+.wwdo-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.faddress-link:hover,
+.faddress-link:focus,
+.faddress-link-second:hover,
+.faddress-link-second:focus {
+  color: var(--accent-color);
+}
+
+.team-card-block {
+  width: 270px;
+  height: 368px;
+  border-radius: 5px;
+  background-color: var(--third-color);
+  box-shadow: 0px 3px 2px #9b9a9e;
+}
+
+.main-section-header {
+  font-size: 0;
+}
+
+.port-btn {
+  color: #212121;
+  background-color: #f5f4fa;
+  padding: 6px 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.port-btn:hover,
+.port-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.port-card-block {
+  background-color: #ffffff;
+  width: 370px;
+  height: 404px;
+}
+.card-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.card-paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
