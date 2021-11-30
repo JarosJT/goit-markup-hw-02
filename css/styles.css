@@ -293,6 +293,7 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
 }
+<<<<<<< HEAD
 
 .team-card-name {
   color: var(--primary-color);
@@ -399,3 +400,5 @@ ul {
 
   flex-basis: calc((100% - 90px) / 3);
 }
+=======
+>>>>>>> parent of ec4d090 (Версия после исправления)
